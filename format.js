@@ -13,7 +13,7 @@ function formatNumber(num) {
         arr.splice(k, 0, ',');
     }
 }
-   console.log(arr.join(''));
+   return arr.join('');
 }
 
 formatNumber(12345678999);
